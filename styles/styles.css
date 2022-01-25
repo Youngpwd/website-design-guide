@@ -1,0 +1,409 @@
+body {
+  background-color: #3c3c3c;
+}
+/*Home Section*/
+/* Home header */
+header {
+  text-align: center;
+  width: fit-content;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}
+
+.nav-title {
+  background-color: #087e8b;
+  border-radius: 20px;
+  font-size: 40px;
+  color: #f5f5f5;
+  padding: 20px;
+  font-family: "Ubuntu", sans-serif;
+  position: fixed;
+  border: 1px solid black;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+nav ul {
+  background-color: #ff5a5f;
+  width: fit-content;
+  border-radius: 20px;
+  position: relative;
+  left: 520px;
+  border: 1px solid black;
+}
+
+nav li {
+  display: inline-block;
+  padding: 31px;
+}
+
+nav a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: #be658d;
+  padding: 31px;
+  border-radius: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/*Home Main*/
+.home-main {
+  background-image: url("./images/med-badr-chemmaoui-ZSPBhokqDMc-unsplash.jpg");
+  background-size: 1537px 700px;
+  background-repeat: no-repeat;
+  margin: 55px auto;
+  position: relative;
+  height: 700px;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 20px;
+  top: 100px;
+}
+
+.overlay {
+  background-color: rgba(8, 126, 139, 0.35);
+  z-index: 2;
+  height: 700px;
+  position: relative;
+  bottom: 20px;
+  border-radius: 20px;
+}
+
+.home-description {
+  background-color: #f5f5f5d7;
+  width: 60%;
+  margin: 20px auto;
+  position: relative;
+  top: 120px;
+  border: 5px solid #be658d;
+  border-radius: 50%;
+  padding: 25px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  padding: 25px;
+  text-decoration: underline;
+}
+
+p,
+span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  padding: 25px;
+  margin: 30px;
+  line-height: 40px;
+  word-spacing: 4px;
+  font-weight: 600;
+  text-align: justify;
+}
+.home-container {
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+  left: 140px;
+  text-decoration: underline;
+}
+
+/* Color Pallets */
+/*Color Pallets main*/
+.body-bg-color {
+  background-image: url("./images/scott-webb-ywuH99ygfec-unsplash.jpg");
+}
+
+.section-container {
+  text-align: left;
+  background-color: #f5f5f59d;
+  position: relative;
+  top: 100px;
+  width: 90%;
+  height: 100%;
+  margin: 50px auto;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 25px;
+}
+
+.section-container h2 {
+  margin: 0px 0px 30px;
+}
+
+.pallet-section {
+  border: 1px solid black;
+  width: 350px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  left: 100px;
+  margin: 0px 5px;
+}
+
+.pallet-section p {
+  text-align: center;
+  margin: 0;
+  width: 348px;
+  height: 198px;
+  text-transform: uppercase;
+}
+
+/* Colors for color pallets */
+/* clean and highlighted section */
+.sky {
+  background-color: #caebf2;
+}
+
+.carbon {
+  background-color: #a9a9a9;
+  color: white;
+}
+
+.watermelon {
+  background-color: #ff3b3f;
+  color: white;
+}
+
+.neutral {
+  background-color: #efefef;
+}
+
+.fresh {
+  background-color: #4abdac;
+  color: white;
+}
+
+.vermillion {
+  background-color: #fc4a1a;
+  color: white;
+}
+
+.sunshine {
+  background-color: #f78733;
+  color: white;
+}
+
+.clean {
+  background-color: #dfdce3;
+  color: white;
+}
+
+.void {
+  background-color: #0e0b16;
+  color: white;
+}
+
+.fuschia {
+  background-color: #a239ca;
+  color: white;
+}
+
+.jewel {
+  background-color: #4717f6;
+  color: white;
+}
+
+.stark {
+  background-color: #e7dfdd;
+}
+
+.butter {
+  background-color: #fedc3d;
+}
+
+.black {
+  background-color: #000000;
+  color: white;
+}
+
+.azure {
+  background-color: #01abaa;
+  color: white;
+}
+
+.peach {
+  background-color: #fea680;
+  color: white;
+}
+
+/* Fonts */
+/* Font section */
+.body-bg-fonts {
+  background-image: url("./images/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg");
+}
+
+#font-section-container {
+  margin: 0 auto;
+}
+
+
+.font-container {
+  display: inline-block;
+  border: 1px solid black;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  margin: 25px;
+  padding: 5px;
+}
+
+.h2-font {
+  font-family: 'Lobster', cursive;
+  font-size: 48px;
+}
+
+
+.font-container h3 {
+  font-size: 24px;
+  font-weight: 900;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.font-container p {
+  margin: 0;
+  line-height: 1;
+  font-size: 18px;
+}
+
+
+.reg-400 {
+  font-weight: 400;
+}
+
+.reg-400-italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bold-700 {
+  font-weight: 700;
+}
+
+#roboto,
+#roboto p {
+  font-family: 'Roboto', sans-serif;
+}
+
+#open-sans,
+#open-sans p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#poppins,
+#poppins p {
+  font-family: 'Poppins', sans-serif;
+}
+
+#ubuntu,
+#ubuntu p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#quicksand,
+#quicksand p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#noto-serif,
+#noto-serif p {
+  font-family: 'Noto Serif', serif;
+}
+
+#nunito,
+#nunito p {
+  font-family: 'Nunito', sans-serif;
+}
+
+#kanit,
+#kanit p {
+  font-family: 'Kanit', sans-serif;
+}
+
+#one-font-lobster,
+#one-font-lobster p {
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#one-font-fatface,
+#one-font-fatface p {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#one-font-fatface,
+#one-font-lobster {
+  padding: 10px;
+  margin: 0px 150px;
+}
+
+/* Text styles section */
+.body-bg-text-styles {
+  background-image: url('./images/andreas-fickl-o1xcUi-Yt_w-unsplash.jpg');
+  overflow: hidden;
+}
+
+#styles-section-container {
+  background-color: #f5f5f5;
+  position: relative;
+  top: 200px;
+}
+
+.overlay-text-styles {
+  background-color: rgba(0, 0, 0, 0.836);
+  height: 1000px;
+  position: relative;
+  bottom: 50px;
+}
+
+.styles {
+  display: inline-block;
+  margin: 30px 80px;
+  text-transform: capitalize;
+}
+
+.styles h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.styles ul {
+  padding: 10px;
+  margin: 25px;
+}
+
+.styles li {
+  list-style: square;
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.h2-styles {
+  font-size: 42px;
+  text-decoration: none;
+  padding: 0%;
+  margin: 0;
+  font-weight: 500;
+}
+
+.p-styles {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0;
+}
